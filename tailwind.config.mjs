@@ -11,6 +11,19 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        animate: "animate 10s ease-in-out",
+      },
+      keyframes: {
+        animate: {
+          "0%": {
+            transform: "rotateX(-30deg) rotateY(-30deg)",
+          },
+          50: {
+            transform: "rotateX(-210deg) rotateY(-210deg)",
+          },
+        },
+      },
     },
   },
   plugins: [],
